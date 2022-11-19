@@ -7,6 +7,8 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     final photo = 
     Container(
+      
+      decoration: BoxDecoration(color: Color.fromARGB(209, 194, 241, 64)),
 
       margin: const EdgeInsets.only(top: 20.0, left: 20.0),
 
@@ -29,7 +31,11 @@ class HomePage extends StatelessWidget {
     )
     );
     return Scaffold(
+    backgroundColor: Color.fromARGB(244, 169, 202, 47),
+      
+
       body: SafeArea(
+        
         
         child: Column(
           
@@ -40,6 +46,7 @@ class HomePage extends StatelessWidget {
             children: [
              photo,
               Container(
+                decoration: BoxDecoration(color: Color.fromARGB(255, 167, 38, 38)),
                 alignment: AlignmentDirectional.topStart,
                 margin: const EdgeInsets.only(top: 50.0, left: 10.0),
                 
@@ -62,7 +69,7 @@ class HomePage extends StatelessWidget {
                       onTap: (){
                         Navigator.pushNamed(context, 'profile4');
                       },
-                      child: Text('Experiencia Laboral'))
+                      child: Text('Biografia'))
                       ),
                        Center(
                     child: 

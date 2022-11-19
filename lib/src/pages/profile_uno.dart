@@ -53,11 +53,11 @@ class ProfileUno extends StatelessWidget {
             mainAxisSpacing: 15,
             children: [
             _photos(),
-            _photos1(),
-            _photos2(),
             _photos3(),
-            _photos1(),
-            _photos2(),
+            _photos(),
+            _photos3(),
+            _photos3(),
+            _photos(),
             _photos3(),
             _photos(),
             _photos1()
@@ -207,7 +207,7 @@ Widget _photos1() {
         width: 10,
         height: 20,
         fit: BoxFit.fill ,
-                    "assets/images/jo1.jpeg",
+                    "assets/images/amooor.jpeg",
                
                   ),
       

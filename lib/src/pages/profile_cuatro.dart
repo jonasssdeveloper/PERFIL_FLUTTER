@@ -12,8 +12,6 @@ class ProfileCuatro extends StatelessWidget{
       body: PageView(
         scrollDirection: Axis.vertical,
         children: [
-          Page1(),
-          Page2(),
           Page1()
         ],
 
@@ -69,15 +67,14 @@ class MainContent extends StatelessWidget {
               ),
         
         SizedBox(height: 30),
-        Text('MIS REDES SOCIALES', style: textStyle ),
+        Text('Biografia', style: textStyle ),
      Center(
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 SizedBox(height: 60.0),
                 Text(
-                     '          ganizada, excelentes relaciones interpersonales, fácil                 '
-                     '          adaptabilidad a los ambientes laborales, trabajo en equipo.',
+                     'Mi nombre es Jonathan Calle Condori, mis papas son Javier Freddy Calle M. y mi madre es Gladys Blanca Condori Llanque.Naci en la ciudad de La Paz un 8 de diciembre de 1995, pesando 5 kilos. Seguramente a mi mama le costo mucho tenerme. Asisti al colegio Antonio Diaz Villamil, preste el servicio militar  en el departamento del Beni. Vivi en el pais de Brasil 5 años por razones de trabajo y estudio. Actualemente estudio en la UniFranz en la ciudad de Santa Cruz. Tengo muchos sueños que cumplir y metas que alcanzar doy gracias a la vida por ser tan buena conmigo',
                     style: TextStyle(
                         color: Color.fromARGB(255, 230, 222, 222),
                         fontWeight: FontWeight.w200,
@@ -104,102 +101,6 @@ class Background extends StatelessWidget {
       color: Colors.red,
       height: double.infinity,
       alignment: Alignment.topCenter,
-      child: Image(image: AssetImage("assets/images/1aje.jpg"),));
-  }
-}
-
-class Page2 extends StatelessWidget{
-
-  @override
-  Widget build(BuildContext context){
-    return Container(
-      color: Color.fromARGB(255, 214, 48, 48),
-      child: Center(
-        
-        child: ListView(
-          padding: EdgeInsets.only(top: 60, left: 16, right: 16),
-          children: [
-            
-            Container(
-              
-              child: TextButton(
-          onPressed: (){
-            launchUrlString("https://www.facebook.com/jhonn.stailok.5/");
-          },
-          child: Padding(
-            padding: EdgeInsets.symmetric (horizontal:20),
-            child: Container(child: Text('Facebook', style: TextStyle(color: Colors.white, fontSize: 30))),
-          ), 
-          style: TextButton.styleFrom(
-            backgroundColor: Color(0xff0098FA),
-            shape: StadiumBorder()
-          )
-        ),
-   
-        ),
-        SizedBox(height: 60.0),
-         Container(
-          
-              child: TextButton(
-          onPressed: (){
-            launchUrlString("https://www.facebook.com/jhonn.stailok.5/");
-          },
-          child: Padding(
-            padding: EdgeInsets.symmetric (horizontal:20),
-            child: Container(child: Text('Instagram', style: TextStyle(color: Colors.white, fontSize: 30))),
-          ), 
-          style: TextButton.styleFrom(
-            backgroundColor: Color.fromARGB(255, 230, 143, 13),
-            shape: StadiumBorder()
-          )
-        ),
-        ),
-        SizedBox(height: 60.0),
-        Container(
-              
-              child: TextButton(
-          onPressed: (){
-            launchUrlString("https://www.facebook.com/jhonn.stailok.5/");
-          },
-          child: Padding(
-            padding: EdgeInsets.symmetric (horizontal:20),
-            child: Container(child: Text('TikTtok', style: TextStyle(color: Colors.white, fontSize: 30))),
-          ), 
-          style: TextButton.styleFrom(
-            backgroundColor: Color.fromARGB(255, 214, 27, 199),
-            shape: StadiumBorder()
-          )
-        ),
-        
-   
-        ),
-        SizedBox(height: 60.0),
-         Container(
-              
-              child: TextButton(
-          onPressed: (){
-            launchUrlString("https://www.facebook.com/jhonn.stailok.5/");
-          },
-          child: Padding(
-            padding: EdgeInsets.symmetric (horizontal:20),
-            child: Container(child: Text('Twitter', style: TextStyle(color: Colors.white, fontSize: 30))),
-          ), 
-          style: TextButton.styleFrom(
-            backgroundColor: Color.fromARGB(255, 59, 157, 223),
-            shape: StadiumBorder()
-          )
-        ),
-   
-        ),
-            
-
-      ] 
-      ),
-        
-        
-      ),
-
-    );
-  
+      child: Image(image: AssetImage("assets/images/2aje.jpg"),));
   }
 }

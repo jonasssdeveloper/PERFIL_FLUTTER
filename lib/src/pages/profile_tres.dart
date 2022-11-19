@@ -126,7 +126,7 @@ class Page2 extends StatelessWidget{
           
               child: TextButton(
           onPressed: (){
-            launchUrlString("https://www.facebook.com/jhonn.stailok.5/");
+            launchUrlString("https://www.instagram.com/jonas.calle.14/");
           },
           child: Padding(
             padding: EdgeInsets.symmetric (horizontal:20),
@@ -143,7 +143,7 @@ class Page2 extends StatelessWidget{
               
               child: TextButton(
           onPressed: (){
-            launchUrlString("https://www.facebook.com/jhonn.stailok.5/");
+            launchUrlString("https://www.tiktok.com/@raaamzes666");
           },
           child: Padding(
             padding: EdgeInsets.symmetric (horizontal:20),
@@ -162,7 +162,7 @@ class Page2 extends StatelessWidget{
               
               child: TextButton(
           onPressed: (){
-            launchUrlString("https://www.facebook.com/jhonn.stailok.5/");
+            launchUrlString("https://twitter.com/minosss5");
           },
           child: Padding(
             padding: EdgeInsets.symmetric (horizontal:20),
